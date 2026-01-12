@@ -21,4 +21,14 @@ note: when anything new changes follow these steps:
       git commit -m " give your msg"
       git push (check which branch you are pushing)
 
+when you want to want code from one branche to another then use these
+Step 1: Make sure master is up to date
+-->  git checkout master
+--> git pull origin master
+Merge into branch 2 (example: dev2)
+-->git checkout dev2
+-->git merge master
+-->git push origin dev2
+
 merge conlict
+
