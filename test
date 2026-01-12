@@ -13,9 +13,22 @@ now to push folders to remote create repo in github and follow steps
  to create branch use this coimmit
  git branch
  git checkout -b "branch1" (-b to create new branch)
- git push --set-upstream origin branch1 ( when we want to push to particilar branch)
+ git checkout branch1 (to switch between branches)
 
+note: when anything new changes follow these steps:
+      git status
+      git add filenamae
+      git commit -m " give your msg"
+      git push (check which branch you are pushing)
 
-merge Conflicts
+when you want to want code from one branche to another then use these
+Step 1: Make sure master is up to date
+-->  git checkout master
+--> git pull origin master
+Merge into branch 2 (example: dev2)
+-->git checkout dev2
+-->git merge master
+-->git push origin dev2
 
+merge conlict
 
