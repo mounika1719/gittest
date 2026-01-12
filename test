@@ -13,3 +13,12 @@ now to push folders to remote create repo in github and follow steps
  to create branch use this coimmit
  git branch
  git checkout -b "branch1" (-b to create new branch)
+ git checkout branch1 (to switch between branches)
+
+note: when anything new changes follow these steps:
+      git status
+      git add filenamae
+      git commit -m " give your msg"
+      git push (check which branch you are pushing)
+
+merge conlict
