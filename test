@@ -1,0 +1,15 @@
+working area | staging | local | remote 
+
+first need to create repo in local and use these commands 
+git init
+git status
+git add filename ( to send files from working directory to staging area)
+git commit -m "commting code and ex" ( to send file from staging to local)
+
+now to push folders to remote create repo in github and follow steps
+ $ git remote add origin git@github.com:mounika1719/gittest.git
+ $ git push -u origin master
+ 
+ to create branch use this coimmit
+ git branch
+ git checkout -b "branch1" (-b to create new branch)
